@@ -1,0 +1,215 @@
+*{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.aciklama{
+    margin-left: 8%;
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+
+table{
+    border-color: gray;
+    border-width: 0.2rem;
+    width: 90%;
+    margin: auto;
+    
+    margin-bottom: 5rem;
+    
+}
+
+thead{
+    background-color: rgba(90, 90, 90, 0.596);
+}
+
+th{
+    font-size: 1.6rem;
+    border-color: #706e6e;
+    padding: 0.4rem;
+}
+
+td{
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+.detay{
+    text-align: center;
+    width: 10%;
+    padding: 0.4rem 0;
+}
+.detay button{
+    display: inline-block;
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 0.4rem;
+}
+
+.durum{
+    text-align: center;
+    width: 10%;
+    padding: 0.4rem 0;
+}
+
+.durum button{
+    display: inline-block;
+    width: 80%;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+}
+
+input{
+    box-sizing: border-box;
+    height: 3.8rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+input[type="text"]{
+    border-color: rgb(0, 217, 255);
+    margin-left: 8%;
+}
+
+input[type="text"]:focus{
+    box-shadow: #fdca12;
+    border-color: #fdca12;
+    background-color: rgb(253, 253, 165);
+}
+
+
+input[type="submit"]{
+    border-radius: 1rem;
+    border: 0.2rem solid #131111;
+    color: #fdca12;
+    background-color: #918d8d;
+    margin-left: 2rem;
+}
+
+input[type="submit"]:hover{
+    background-color: #fdca12;
+    color: #918d8d;
+}
+
+
+
+.bilgiler{
+    font-size: 2rem;
+    border: 0.3rem solid #4b8582;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #85adb0;
+    width: 50rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+.kartlar{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    text-align: center;
+}
+
+input[name="musteriAnneKızlıkSoyad"]{
+    margin-top: 0.8rem;
+}
+
+blok input[type="checkbox"]{
+    margin-left: 8%;
+    width: 2rem;
+    margin-bottom: 0;
+    height: 2rem;
+}
+
+blok form p{
+    font-size: 2rem;
+    display: inline-block;
+}
+
+input[name="blokla"]{
+    margin-left: 8%;
+}
+mDetay{
+    text-align: center;
+}
+hr{
+    border-style: solid;
+    background: #fdca12;
+    height: 0.1rem;
+    width: 90%;
+    margin:auto;
+}
+
+h2{
+    font-size: 3rem;
+    padding: 0 1.5rem;
+}
+
+mDetay div{
+    background-color: #535353;
+    width: 60rem;
+    margin: 4rem auto 0 auto;
+    border: 0.1rem solid #535353;
+    border-radius: 1rem;
+    color: #fdca12;
+}
+
+mDetay h2{
+    font-size: 4.5rem;
+    margin: 0.9rem 0;
+}
+mDetay ul{
+    margin-top: 1.5rem;
+}
+mDetay li{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 0.5rem;
+}
+
+mDetay button{
+    width: 18rem;
+    margin: 0.8rem;
+    height: 5rem;
+    font-size: 2rem;
+    background: #fdca12;
+    color: #535353;
+    border: #535353;
+    transition: 0.5s; 
+}
+
+mDetay button:hover{
+    background: #fd8f12;
+}
+
+mDetay button:active{
+    background: #22aa00;
+}
+
+@media screen and (max-width:767px){
+    html{
+        font-size: 5.5px;
+    }
+}
+
+@media screen and (min-width:768px){
+    html{
+        font-size: 7px;
+    }
+}
+
+@media screen and (min-width:960px){
+    html{
+        font-size: 8.8px;
+    }
+}

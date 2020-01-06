@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font-family: sans-serif;
+    background-repeat:  no-repeat;
+}
+
+
+blockquote#danger{
+background-color:tomato;
+border-left:7px #dc3d21 solid;
+color:black;
+
+}
+blockquote{
+-webkit-transition: all 500ms ease-out ;
+-moz-transition: all 500ms ease-out ;
+-o-transition: all 500ms ease-out ;
+transition: all 500ms ease-out ;
+font:16px 'Open Sans';
+padding:15px;
+}
+#tasarım {
+	position:  absolute;
+	top: 30px;
+  	left: 20px;
+	border-collapse: collapse;
+	width: calc(100% - 40px);
+}
+ 
+#tasarım td, #tasarım th {
+border: 0px solid #ddd;
+padding: 8px;
+}
+ 
+#tasarım tr:nth-child(even){}
+ 
+
+}
+ 
+#tasarım th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color:  #0F4EC4;
+color: white;
+
+}
+
+blockquote#warning{
+background-color:#ecdfb0;
+border-left:7px #e5c693 solid;
+color:#6b6d31;
+}
+blockquote#info{
+background-color:#bde9f7;
+border-left:7px #8bdaf4 solid;
+color:#3c7e94;
+}

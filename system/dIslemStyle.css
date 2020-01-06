@@ -1,0 +1,117 @@
+*{
+    list-style: none;
+    color: #fdca12;
+}
+
+hr{
+    border-style: solid;
+    background: #fdca12;
+    height: 0.1rem;
+    width: 90%;
+}
+
+h2{
+    font-size: 3rem;
+    margin: 0.9rem 0;
+}
+
+body{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: #535353;
+    display: inline-block;
+    
+    border: 0.1rem solid #535353;
+    border-radius: 1rem;
+    
+}
+
+#hesapBilgi{
+    width: 70rem;
+    margin: 3.5% 0;
+}
+
+form{
+    margin: 1rem 0 0.8rem 0;
+}
+
+select{
+    width: 20rem;
+    background: #5f5f5f;
+    margin-top: 0;
+    font-size: 1.8rem;
+    border-color: #5f5f5f;
+}
+
+input[type="submit"]{
+    border-radius: 0.8rem;
+    border: 0.2rem solid #918d8d;
+    color: #fdca12;
+    background-color: #918d8d;
+    margin-left: 2rem;
+    width: 8rem;
+    font-size: 1.8rem;
+}
+
+input[type="submit"]:hover{
+    background-color: #fdca12;
+    color: #918d8d;
+}
+
+input[type="text"]{
+    border-color: #5f5f5f;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+input[type="text"]:focus{
+    box-shadow: #fdca12;
+    border-color: #fdca12;
+    background-color: rgb(253, 253, 165);
+}
+
+li{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+#dTakip{
+    width: 40rem;
+    margin-left: 4%;
+}
+table{
+    font-size: 2rem;
+    text-align: left;
+}
+.bayrak img{
+    width: 5rem;
+    margin: 0.3rem 0.4rem 0.1rem 0.6rem;
+}
+.dovizTablo{
+    width: 15rem;
+}
+.alisTablo{
+    width: 10rem;
+}
+
+@media screen and (max-width:767px){
+    html{
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width:768px){
+    html{
+        font-size: 6.5px;
+    }
+}
+
+@media screen and (min-width:960px){
+    html{
+        font-size: 9px;
+    }
+}

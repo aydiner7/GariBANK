@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font-family: Gadget, sans-serif;
+    background-repeat:  no-repeat;
+}
+table.tablo {
+  position: absolute;
+  background-color: #EEEEEE;
+  top: 100px;
+  border: 0px solid #1C6EA4;
+  left: 400px;
+  width: calc(100% - 750px);
+  text-align: center;
+  border-radius: 50px;
+  border-collapse: collapse;
+}
+table.tablo td, table.tablo th {
+  border: 0px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.tablo tbody td {
+  font-size: 12px;
+}
+table.tablo tfoot td {
+  font-size: 14px;
+}
+table.tablo tfoot .links {
+  text-align: right;
+}
+table.tablo tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.textbox { 
+    background: #535353; 
+    border: 1px solid #ffa853; 
+    border-radius: 5px; 
+    box-shadow: 0 0 3px 1px #ffa853; 
+    color: #fff; 
+    outline: none; 
+     height:23px; 
+    width: 275px; 
+  } 
+  .textbox1{ 
+    background: #FAFAD2; 
+    border: 1px solid #ffa853; 
+    border-radius: 5px; 
+    box-shadow: 0 0 3px 1px #ffa853; 
+    color: #aaa; 
+    outline: none; 
+     height:23px; 
+    width: 275px; 
+  }
+  .buton {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+
+  background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color:#ffec64;
+  border-radius:16px;
+  border:3px solid #ffaa22;
+  display:inline-block;
+  cursor:pointer;
+  color:#333333;
+  font-size:16px;
+  font-weight:bold;
+  padding:10px 24px;
+  text-decoration:none;
+  text-shadow:-6px -10px 24px #ffee66;
+}
+.buton:hover {
+  background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color:#ffab23;
+}
+@media screen and (max-width: 767px){
+
+  table.tablo {
+  position: absolute;
+  background-color: #EEEEEE;
+  top: 100px;
+  border: 0px solid #1C6EA4;
+  left: 7px;
+  width: calc(100% - 15px);
+  text-align: center;
+  border-radius: 50px;
+  border-collapse: collapse;
+}
+.textbox1{ 
+    background: #FAFAD2; 
+    border: 1px solid #ffa853; 
+    border-radius: 5px; 
+    box-shadow: 0 0 3px 1px #ffa853; 
+    color: #aaa; 
+    outline: none; 
+     height:23px; 
+    width: 150px; 
+  }
+  .textbox { 
+    background: #535353; 
+    border: 1px solid #ffa853; 
+    border-radius: 5px; 
+    box-shadow: 0 0 3px 1px #ffa853; 
+    color: #fff; 
+    outline: none; 
+     height:23px; 
+    width: 150px; 
+  } 
+   .buton {
+    position: absolute;
+    top: 430px;
+    left: 120px;
+
+  background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color:#ffec64;
+  border-radius:16px;
+  border:3px solid #ffaa22;
+  display:inline-block;
+  cursor:pointer;
+  color:#333333;
+  font-size:16px;
+  font-weight:bold;
+  padding:10px 24px;
+  text-decoration:none;
+  text-shadow:-6px -10px 24px #ffee66;
+}
+table.tablo td, table.tablo th {
+  border: 0px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.tablo tbody td {
+  font-size: 12px;
+}
+table.tablo tfoot td {
+  font-size: 14px;
+}
+table.tablo tfoot .links {
+  text-align: right;
+}
+table.tablo tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+}
+@media only screen and (min-width:768px) and (max-width:959px) {
+
+table.tablo {
+  position: absolute;
+  background-color: #EEEEEE;
+  top: 100px;
+  border: 0px solid #1C6EA4;
+  left: 150px;
+  width: calc(100% - 300px);
+  text-align: center;
+  border-radius: 50px;
+  border-collapse: collapse;
+}
+ .buton {
+    position: absolute;
+    top: 400px;
+    left: 410px;
+
+  background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color:#ffec64;
+  border-radius:16px;
+  border:3px solid #ffaa22;
+  display:inline-block;
+  cursor:pointer;
+  color:#333333;
+  font-size:16px;
+  font-weight:bold;
+  padding:10px 24px;
+  text-decoration:none;
+  text-shadow:-6px -10px 24px #ffee66;
+}
+
+}
+@media only screen and (min-width:960px) {
+table.tablo {
+  position: absolute;
+  background-color: #EEEEEE;
+  top: 100px;
+  border: 0px solid #1C6EA4;
+  left: 250px;
+  width: calc(100% - 500px) ;
+  text-align: center;
+  border-radius: 50px;
+  border-collapse: collapse;
+}
+.buton {
+    position: absolute;
+    top: 400px;
+    left: 470px;
+
+  background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color:#ffec64;
+  border-radius:16px;
+  border:3px solid #ffaa22;
+  display:inline-block;
+  cursor:pointer;
+  color:#333333;
+  font-size:16px;
+  font-weight:bold;
+  padding:10px 24px;
+  text-decoration:none;
+  text-shadow:-6px -10px 24px #ffee66;
+}
+
+  }
+
+

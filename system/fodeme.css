@@ -1,0 +1,441 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font-family:  Impact, Charcoal, sans-serif
+    background-repeat:  no-repeat;
+}
+#tasarım {
+position: absolute;
+top: 150px;
+left: 200px;
+width: calc(100% - 400px);
+border-collapse: collapse;
+text-align:  center;
+
+}
+#tasarım td, #tasarım th {
+border: 0px solid #ddd;
+padding: 8px;
+}
+.input{
+	border-bottom:1px solid gold;
+	width: 200px;
+
+}
+.input input{
+	width: 100%;
+	outline: none;
+	border: 0;
+}
+#tasarım1 {
+	position:  absolute;
+	top: 250px;
+  	left: 250px;
+	border-collapse: collapse;
+	width: calc(100% - 500px);
+}
+ 
+#tasarım1 td, #tasarım1 th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+ 
+#tasarım1 tr:nth-child(even){background-color: #f2f2f2;}
+ 
+
+}
+ 
+#tasarım1 th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #2c3e50;
+color: white;
+}
+.button {
+
+  background-color: #fdca12;
+
+  border: none;
+
+  color: black;
+
+  padding: 16px 32px;
+
+  text-align: center;
+
+  font-size: 16px;
+
+  margin: 4px 2px;
+
+  opacity: 0.6;
+
+  transition: 0.3s;
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  cursor: pointer;
+  border-radius: 150px;
+}
+.button:hover {opacity: 1}
+.button1 {
+	position: absolute;
+	top: 300px;
+	left: 350px;
+  background-color: #fdca12;
+
+  border: none;
+
+  color: black;
+
+  padding: 10px 20px;
+
+  text-align: center;
+  width: 150px;
+
+  font-size: 10px;
+
+  margin: 4px 2px;
+
+  opacity: 0.6;
+
+  transition: 0.3s;
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  cursor: pointer;
+  border-radius: 50px;
+}
+.button1:hover {opacity: 1}
+.select {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    width: calc(100% - 400px);
+    display: inline-block;
+    margin-bottom: 15px;
+    
+}    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 7px 15px;
+        outline: 0;
+        border: 0px solid #000000;
+        border-radius: 8px;
+        background: #fdca12;
+        color: #f2f2f2;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: black;
+            background: #fdca12;;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    width: 5px;
+    height: 5px;
+    border: solid #7b7b7b;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+
+
+@media screen and (max-width: 767px){
+  .select {
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    width: calc(100% - 10px) ;
+    display: inline-block;
+    margin-bottom: 15px;
+    
+}    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 7px 15px;
+        outline: 0;
+        border: 0px solid #000000;
+        border-radius: 8px;
+        background: #fdca12;
+        color: #f2f2f2;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: black;
+            background: #fdca12;;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    width: 5px;
+    height: 5px;
+    border: solid #7b7b7b;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+#tasarım {
+position: absolute;
+top: 150px;
+left: 5px;
+width: calc(100% - 20px);
+border-collapse: collapse;
+text-align:  center;
+
+}
+#tasarım td, #tasarım th {
+border: 0px solid #ddd;
+padding: 8px;
+}
+.input{
+  border-bottom:1px solid gold;
+  width: 200px;
+
+}
+.input input{
+  width: 200px;
+  outline: none;
+  border: 0;
+}
+#tasarım1 {
+  position:  absolute;
+  top: 250px;
+    left: 5px;
+  border-collapse: collapse;
+  width: calc(100% - 10px);
+}
+#tasarım1 tr > *:nth-child(5) { 
+    display: none; 
+}
+.button1 {
+  position: absolute;
+  top: 350px;
+  left:80px;
+
+  width: 150px;
+
+  background-color: #fdca12;
+
+  border: none;
+
+  color: black;
+
+  padding: 10px 20px;
+
+  font-size: 13px;
+
+  margin: 4px 2px;
+
+  opacity: 0.6;
+
+  transition: 0.3s;
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  cursor: pointer;
+  border-radius: 150px;
+}
+.button1:hover {opacity: 1}
+.button {
+
+  background-color: #fdca12;
+
+  border: none;
+
+  color: black;
+
+  padding: 10px 20px;
+
+  text-align: center;
+
+  font-size: 10px;
+
+  margin: 4px 2px;
+
+  opacity: 0.6;
+
+  transition: 0.3s;
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  cursor: pointer;
+  border-radius: 150px;
+}
+.button:hover {opacity: 1}
+}
+@media only screen and (min-width:768px) and (max-width:959px) {
+
+      .select {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    width: calc(100% - 400px) ;
+    display: inline-block;
+    margin-bottom: 15px;
+    
+} 
+#tasarım {
+position: absolute;
+top: 150px;
+left: 250px;
+width: calc(100% - 500px);
+border-collapse: collapse;
+text-align:  center;
+
+}
+#tasarım1 {
+  position:  absolute;
+  top: 250px;
+    left: 200px;
+  border-collapse: collapse;
+  width: calc(100% - 400px);
+}
+.button1 {
+  position: absolute;
+  top: 350px;
+  left:200px;
+
+  width: 150px;
+
+  background-color: #fdca12;
+
+  border: none;
+
+  color: black;
+
+  padding: 10px 20px;
+
+  font-size: 13px;
+
+  margin: 4px 2px;
+
+  opacity: 0.6;
+
+  transition: 0.3s;
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  cursor: pointer;
+  border-radius: 150px;
+}
+.button1:hover {opacity: 1}
+
+  }
+  @media screen and (min-width: 960px){
+
+    .select {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    width: calc(100% - 400px) ;
+    display: inline-block;
+    margin-bottom: 15px;
+    
+} 
+#tasarım {
+position: absolute;
+top: 150px;
+left: 250px;
+width: calc(100% - 500px);
+border-collapse: collapse;
+text-align:  center;
+
+}
+#tasarım1 {
+  position:  absolute;
+  top: 250px;
+    left: 200px;
+  border-collapse: collapse;
+  width: calc(100% - 400px);
+}
+.button1 {
+  position: absolute;
+  top: 350px;
+  left:250px;
+
+  width: 150px;
+
+  background-color: #fdca12;
+
+  border: none;
+
+  color: black;
+
+  padding: 10px 20px;
+
+  font-size: 13px;
+
+  margin: 4px 2px;
+
+  opacity: 0.6;
+
+  transition: 0.3s;
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  cursor: pointer;
+  border-radius: 150px;
+}
+.button1:hover {opacity: 1}
+  }
+
+

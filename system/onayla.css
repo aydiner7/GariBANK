@@ -1,0 +1,80 @@
+ .bas{
+
+	background-color: white;
+position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	}
+ 
+ .sozlesme {
+
+ 	height:50%;
+ 	width:50%;
+ 	border:1px solid #ccc;
+ 	font:16px/26px Georgia, Garamond, Serif;
+ 	overflow:auto;
+ 	margin: auto;
+
+ }
+ .onay {
+  top:50%;
+  left:45%;
+ 	position: absolute;
+ }
+
+ .btn{
+	margin: 10 20px;
+    background: #535353;
+    color: #ffecb3;
+    font-size: 1.25em;  
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 767px){
+  
+   
+
+     .sozlesme {
+
+ 	height:70%;
+ 	width:70%;
+ 	border:1px solid #ccc;
+ 	font:16px/26px Georgia, Garamond, Serif;
+ 
+ 	margin: auto;
+
+ }
+ .onay {
+  top:80%;
+  left:30%;
+ 	position: absolute;
+ }
+
+ .btn{
+  
+	margin: 10 20px;
+    background: #535353;
+    color: #ffecb3;
+    font-size: 1.25em;  
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+    
+    
+}
+

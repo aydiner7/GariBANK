@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font-family: sans-serif;
+    background-repeat:  no-repeat;
+}table.odeme {
+  position: absolute;
+  top: 20px;
+  left: 400px;
+  width: calc(100% - 700px);
+  border: 2px solid #FFFFFF;
+  background-color: #FFF0F5;
+ 
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+  
+
+
+}
+table.odeme td, table.odeme th {
+  border: 0px;
+  padding: 3px 4px;
+
+}
+table.odeme tbody td {
+  font-size: 12px;
+}
+table.odeme tr:nth-child(even) {
+  background: #FFE710;
+
+}
+table.odeme tfoot td {
+  font-size: 14px;
+}
+table.kro {
+	position:  absolute; 
+	top: 250px;
+  border: 0px solid #FFFFFF;
+  left: 150px;
+  width: calc(100% - 400px);
+  text-align: center;
+  border-collapse: collapse;
+}
+table.kro td, table.kro th {
+  border: 3px solid #FFFFFF;
+  padding: 0px 0px;
+}
+table.kro tbody td {
+  font-size: 13px;
+}
+table.kro thead {
+  background: #FFFFFF;
+  border-bottom: 4px solid #333333;
+}
+table.kro thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  border-left: 2px solid #333333;
+}
+table.kro thead th:first-child {
+  border-left: none;
+}
+
+table.kro tfoot td {
+  font-size: 14px;
+}
+@media screen and (max-width: 767px){
+		.kro tr > *:nth-child(5) { 
+    display: none; 
+}
+  .kro tr > *:nth-child(6) { 
+    display: none; 
+}
+  .kro tr > *:nth-child(7) { 
+    display: none; 
+}
+  .kro tr > *:nth-child(3) { 
+    display: none; 
+}
+table.kro {
+  position:  absolute; 
+  top: 300px;
+  border: 0px solid #FFFFFF;
+  left:0px;
+  width:100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.odeme {
+  position: absolute;
+  top: 30px;
+  left:15px;
+  width: calc(100% - 40px) ;
+  border: 2px solid #FFFFFF;
+  background-color: #FFF0F5;
+ 
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+  
+
+
+}
+}
+@media only screen and (min-width:768px) and (max-width:959px) {
+  table.odeme {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  width: calc(100% - 400px);
+  border: 2px solid #FFFFFF;
+  background-color: #FFF0F5;
+ 
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+  }
+  table.kro {
+  position:  absolute; 
+  top: 250px;
+  border: 0px solid #FFFFFF;
+  left: 125px;
+  width: calc(100% - 250px);
+  text-align: center;
+  border-collapse: collapse;
+}
+    .kro tr > *:nth-child(5) { 
+    display: none; 
+}
+    .kro tr > *:nth-child(6) { 
+    display: none; 
+}
+}
+@media only screen and (min-width:960px) {
+   table.odeme {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  width: calc(100% - 600px);
+  border: 2px solid #FFFFFF;
+  background-color: #FFF0F5;
+ 
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+  
+
+
+}
+table.kro {
+  position:  absolute; 
+  top: 250px;
+  border: 0px solid #FFFFFF;
+  left: 150px;
+  width: calc(100% - 250px);
+  text-align: center;
+  border-collapse: collapse;
+}
+  
+  }
